@@ -44,8 +44,6 @@ The dataset contains **41,188 records** and **21 attributes**, describing both c
 | nr.employed    | Number of employees                               | Numeric     |
 | **y**          | Client subscribed to term deposit? (`yes`/`no`)   | Target      |
 
----
-
 ## ⚙️ Data Preprocessing Steps
 
 1. **Handling Skewness:**
@@ -72,7 +70,6 @@ The dataset contains **41,188 records** and **21 attributes**, describing both c
 
    * 80% training and 20% testing using `train_test_split` with stratification on target `y`.
 
----
 
 ## 🧠 Model Development
 
@@ -109,8 +106,6 @@ Evaluated using:
 * After applying **SMOTE**, the model achieved **balanced prediction performance**.
 * **Duration**, **Euribor rate**, and **Employment variation rate** had the highest influence on predictions.
 * The **ROC-AUC score of ~0.95** indicates excellent model discrimination ability.
-
----
 
 ## 🚀 How to Run
 
